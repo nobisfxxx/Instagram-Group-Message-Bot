@@ -15,9 +15,9 @@ response = []
 driver.get('https://www.instagram.com/')
 
 #Change username and password to your username and password
-wait.until(ec.element_to_be_clickable((By.NAME, "username"))).send_keys(username)
+wait.until(ec.element_to_be_clickable((By.NAME, "username"))).send_keys(lynx_chod_hu)
 el = wait.until(ec.element_to_be_clickable((By.NAME, "password")))
-el.send_keys(password)
+el.send_keys(ilovetinglui)
 
 sleep(5)
 
@@ -25,7 +25,7 @@ el.send_keys(Keys.ENTER)
 
 sleep(5)
  #Change URL to custom message URL
-driver.get(URL)
+driver.get(OII CHOTE MASSAGE MAAT KAR WARNA LYNXKI MAA SHOD DUNGA)
 sleep(5)
 driver.find_element(By.XPATH, '/html/body/div[5]/div[1]/div/div[2]/div/div/div/div/div[2]/div/div/div[3]/button[2]').click()
 sleep(5)
